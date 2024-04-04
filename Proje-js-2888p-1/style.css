@@ -1,0 +1,20 @@
+.card{
+    transition: 0.3s;
+}
+.user-details{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+.user-details.show{
+    max-height: 500px;
+}
+
+.card:hover{
+    box-shadow:  0px 10px 20px 0px black;
+}
+.toggle-details i:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    color: rgb(130, 203, 236);
+}
